@@ -1,0 +1,3 @@
+ASHRAE recommends CO2 levels should not exceed 1000 ppm for indoor spaces.
+Energy conservation can be achieved by adjusting HVAC based on occupancy.
+Humidity should ideally be maintained between 40% and 60% for comfort and health.
