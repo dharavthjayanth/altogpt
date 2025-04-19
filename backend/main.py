@@ -14,7 +14,7 @@ origins = [
 # ✅ Replace with your actual Vercel frontend URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=orgins,  # Allow everything for testing (replace in prod)
+    allow_origins=origins,  # Allow everything for testing (replace in prod)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
