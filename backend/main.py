@@ -6,12 +6,15 @@ from backend.utils.supabase_client import get_latest_supabase_data
 
 app = FastAPI(title="AltoTech AI Inference API")
 
-
+origins = [
+    "https://altogpt-122r.vercel.app",
+    "http://localhost:3000"
+]
 
 # ✅ Replace with your actual Vercel frontend URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://altogpt.onrender.com"],  # Allow everything for testing (replace in prod)
+    allow_origins=orgins,  # Allow everything for testing (replace in prod)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
