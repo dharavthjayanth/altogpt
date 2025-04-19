@@ -171,15 +171,5 @@ Visit: [http://localhost:3000](http://localhost:3000)
 - Backend optionally deployed on Render or run locally
 - CI/CD with GitHub Actions workflows: test, build, deploy
 
----
 
-## 🧠 Contributions & Acknowledgments
 
-This project was built as part of AltoTech’s **Generative AI Engineer** test.
-
-Contributors:
-- @dharavthjayanth – Core developer and AI pipeline architect
-
----
-
-Happy Building! ⚙️💡
