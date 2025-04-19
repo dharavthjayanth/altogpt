@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+psycopg2-binary
+supabase
+langchain
+openai==0.28
+langchain-community
+langchain-core

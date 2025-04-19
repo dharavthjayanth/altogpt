@@ -1,0 +1,35 @@
+# Node dependencies
+frontend/node_modules
+**/node_modules
+
+# Python virtual environments
+venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Build and log files
+*.log
+*.sqlite3
+*.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker-specific
+Dockerfile
+docker-compose.yml
+
+# Env and config files (your .env will be mounted separately)
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# React build output (handled via Docker)
+frontend/build
