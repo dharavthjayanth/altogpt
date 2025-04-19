@@ -59,19 +59,19 @@ cd altotech-platform
 
 ### 2. Create a `.env` file with:
 ```env
-# PostgreSQL (TimescaleDB)
+
 PG_HOST=localhost
 PG_PORT=5432
 PG_DATABASE=altotech
 PG_USER=postgres
-PG_PASSWORD=your_password
+PG_PASSWORD=shreyasha123
 
-# Supabase
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_service_role_key
 
-# OpenAI
-OPENAI_API_KEY=your_openai_api_key
+SUPABASE_URL=https://wxwmbikghvdoixopbzmr.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind4d21iaWtnaHZkb2l4b3Biem1yIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NDU2OTc0MiwiZXhwIjoyMDYwMTQ1NzQyfQ.nQ7WmOygKGmc7ecPGa60sU6HUgid6mfUdEuV8yOq6Ns
+
+
+OPENAI_API_KEY=sk-svcacct-vPTeI5m4lr8Omi8Nl--zFO2Dar97AIqPeW3xQH0zYKh80vP-ET34un9o0Fs8xT3BlbkFJuuj6Waf1AhBJnB9YHqmrbEAaXT3yqNyNtmYdmr7mx7leDOzZ-oQTSt6bhEbAA
 ```
 
 ### 3. Install backend dependencies
