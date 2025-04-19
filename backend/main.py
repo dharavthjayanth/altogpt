@@ -11,7 +11,7 @@ app = FastAPI(title="AltoTech AI Inference API")
 # ✅ Replace with your actual Vercel frontend URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://altogpt.onrender.com"],  # Allow everything for testing (replace in prod)
+    allow_origins=["."],  # Allow everything for testing (replace in prod)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
