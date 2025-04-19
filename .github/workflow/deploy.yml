@@ -1,0 +1,23 @@
+name: 🚀 Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Deploy via Vercel CLI
+        run: |
+          npm install -g vercel
+          vercel pull --yes --environment=production --token=$VERCEL_TOKEN
+          vercel build --prod --token=$VERCEL_TOKEN
+          vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+        env:
+          VERCEL_TOKEN: F1EgNA9BnXmIwvM1E4p3G2eS
+          VERCEL_ORG_ID: jayanths-projects-3b08736b
+
+          VERCEL_PROJECT_ID: prj_SyE4ScOicHuuV9Lw0VkQDjjSk43U
