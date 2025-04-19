@@ -158,7 +158,7 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ## 📊 Architecture Diagram
 
-![Architecture](./docs/architecture.png)
+![Architecture](./assets/flowchart.png)
 
 > Includes data ingestion, AI inference, and frontend rendering layers.
 
